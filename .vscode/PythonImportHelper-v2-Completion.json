@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def index():\n    return \"hello world???!\"\nif __name__ == '__main__':\n    app.run(debug=True)\n    app.run(host='http://fruits.com', port=80, debug=True)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef index():\n    return \"hello world???!\"\nif __name__ == '__main__':\n    app.run(debug=True)\n    app.run(host='http://fruits.com', port=80, debug=True)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
